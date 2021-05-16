@@ -1,3 +1,6 @@
 [submodule "revitalize-vws-app"]
 	path = App Projects/Revitalize Virtual Wellness System
 	url = https://github.com/LMSkippy/revitalize-vws-app.git
+	update = rebase
+	branch = dev
+	
