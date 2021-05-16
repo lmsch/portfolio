@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_receipt"
+            android:title="@string/nav_add_receipt"
+            android:icon="@drawable/ic_add"/>
+        <item
+            android:id="@+id/nav_receipt_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/nav_receipt_history"/>
+
+        <item
+            android:id="@+id/nav_analysis"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/nav_analysis"/>
+
+        <item android:title="@string/nav_settings">
+            <menu>
+                <item
+                    android:id="@+id/nav_categories"
+                    android:title="@string/nav_categories"
+                    android:icon="@android:drawable/ic_menu_edit"/>
+                <item
+                    android:id="@+id/nav_stores"
+                    android:title="@string/nav_stores"
+                    android:icon="@android:drawable/ic_menu_mylocation"/>
+            </menu>
+        </item>
+    </group>
+</menu>
