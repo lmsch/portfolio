@@ -1,4 +1,4 @@
-[submodule "App Projects/revitalize-vws-app"]
-	path = App Projects/revitalize-vws-app
-	url = https://github.com/LMSkippy/revitalize-vws-app.git
+[submodule "JavaScript/revitalize-vws-app"]
+	path = JavaScript/revitalize-vws-app
+	url = https://github.com/lmsch/revitalize-vws-app.git
 	branch = dev

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/current_turn_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/row0col0"
+        android:layout_alignLeft="@id/row0col0"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/row0col0"
+        style="@style/TictactoeButton"
+        android:layout_above="@id/row1col0"
+        android:layout_alignRight="@id/row1col0"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row0col1"
+        style="@style/TictactoeButton"
+        android:layout_above="@id/row1col1"
+        android:layout_alignRight="@id/row1col1"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row0col2"
+        style="@style/TictactoeButton"
+        android:layout_above="@id/row1col2"
+        android:layout_alignRight="@id/row1col2"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row1col0"
+        style="@style/TictactoeButton"
+        android:layout_alignTop="@id/row1col1"
+        android:layout_toLeftOf="@id/row1col1"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row1col1"
+        style="@style/TictactoeButton"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row1col2"
+        style="@style/TictactoeButton"
+        android:layout_alignTop="@+id/row1col1"
+        android:layout_toRightOf="@+id/row1col1"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row2col0"
+        style="@style/TictactoeButton"
+        android:layout_alignRight="@id/row1col0"
+        android:layout_below="@id/row1col0"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row2col1"
+        style="@style/TictactoeButton"
+        android:layout_alignRight="@id/row1col1"
+        android:layout_below="@id/row1col1"
+        android:onClick="turnMade" />
+
+    <Button
+        android:id="@+id/row2col2"
+        style="@style/TictactoeButton"
+        android:layout_alignRight="@id/row1col2"
+        android:layout_below="@id/row1col2"
+        android:onClick="turnMade" />
+
+</RelativeLayout>

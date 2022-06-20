@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="one_player">1 Player</string>
+    <string name="two_player">2 Players</string>
+    <string name="current_player_notice">Player %d\'s turn</string>
+    <string name="win_message">Player %d\ wins</string>
+    <string name="tie_message">Tie game!</string>
+    <string name="play_again">Would you like to play again?</string>
+    <string name="alert_btn_yes">Yes</string>
+    <string name="alert_btn_no">No</string>
+    <string name="app_description">Luke Schipper\nCS313 Android Development\nProfessor Andrew Godbout\nSeptember 30, 2018</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartScreenActivity">
+
+    <TextView
+        android:id="@+id/app_description_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_player1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/app_description_textview"
+        android:layout_below="@id/app_description_textview"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorAccent"
+        android:onClick="chosePlayer"
+        android:text="@string/one_player"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_player2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@id/button_player1"
+        android:layout_below="@id/button_player1"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:onClick="chosePlayer"
+        android:text="@string/two_player"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="114dp"
+        android:layout_height="114dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/app_description_textview"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</RelativeLayout>
