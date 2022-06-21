@@ -57,3 +57,11 @@ This project includes a Jupyter Notebook and essay. The goal was to analyze a da
 #### Using uninformed searches to solve the 8-puzzle
 
 For this project, I wrote an 8 puzzle game and used uninformed search algorithms to solve it (breath-first search, depth-first search, depth-limited search). For more information, see the [README](https://github.com/lmsch/portfolio/tree/main/AI%20and%20Machine%20Learning/Using%20uninformed%20searches%20to%20solve%20the%208-puzzle).
+
+## Polygon Drawer (Java/Polygon Drawer Swing App)
+
+This was my first Java project to use Swing. It is a program that draws an interative star polygon on the screen. Use the mouse to rotate the star or increase its size. Use the arrow keys to add more points to the star.
+
+<img src="https://user-images.githubusercontent.com/31733474/174712488-83571cfb-9fed-4373-a9f9-6b0bf65ce180.png" height="250" >
+
+
