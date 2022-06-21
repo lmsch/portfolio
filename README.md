@@ -13,7 +13,7 @@ This was an 8 month final project at UPEI. A professor planned on running a 12 w
 Our final MVP included a web app which patients used to:
 * view their profile summary and lab value history
 * fill out standardized surveys and view survey scores
-* view graphs that visualized their lab values and survey scores over time.  
+* view graphs that visualized their lab values and survey scores over time  
 
 Our MVP also included an admin site for managing users. Since surveys were dynamically generated on the frontend from a JSON configuration, the admin site could be used to add new surveys to the system.
 
