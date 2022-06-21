@@ -1,4 +1,6 @@
- * InteractivePolygon - program displays a complete polgon, 
-   which the user can increase the size and complexity of
- * Author - Luke Schipper
- * Version - Jan. 19, 2017
+Polygon Drawer (UPEI project)
+
+A Java Swing/AWT program that draws an interative star polygon on the screen. Use the mouse to rotate the star or increase its size. Use the arrow keys to add more points to the star. See source code for class descriptions.
+
+How to run:
+Compile all .java files and execute PolygonDriver.class
