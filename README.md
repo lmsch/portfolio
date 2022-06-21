@@ -42,7 +42,18 @@ The Tic-Tac-Toe app was a smaller project I completed individually. Although sim
   <img src="https://user-images.githubusercontent.com/31733474/174706837-a9c0bc7c-d113-4d02-b95d-67bc4708b780.png" height="250" >
 </div>
 
+## AI and Machine Learning
 
+I have also included a few projects from an AI/Machine Learning course. A couple of these projects are Jupyter Notebooks that contain my own explanations and observations.
 
+#### Building a custom neural network for the MNIST dataset
 
+The goal of this project was to write my own feedforward neural network. I then had to find a model that maximizes accuracy on the MNIST dataset (classifying images of handwritten digits). The [Jupyter Notebook](https://github.com/lmsch/portfolio/blob/main/AI%20and%20Machine%20Learning/Building%20a%20custom%20NN%20for%20MNIST%20dataset/nn_code_training.ipynb) documents how I go about writing and tuning the neural network.
 
+#### Developing a model to predict heart failure
+
+This project includes a Jupyter Notebook and essay. The goal was to analyze a dataset of heart failure patients to determine what lab measurements are the best indicators of death risk. I then used these key indicators to train a model that accurately predicts risk of death from heart failure. In this project, I test classical machine learning algorithms like logistic regression and decision trees. The Notebook can be found [here](https://github.com/lmsch/portfolio/blob/main/AI%20and%20Machine%20Learning/Developing%20a%20model%20to%20predict%20heart%20failure/data_analysis.ipynb).
+
+#### Using uninformed searches to solve the 8-puzzle
+
+For this project, I wrote an 8 puzzle game and used uninformed search algorithms to solve it (breath-first search, depth-first search, depth-limited search). For more information, see the [README](https://github.com/lmsch/portfolio/tree/main/AI%20and%20Machine%20Learning/Using%20uninformed%20searches%20to%20solve%20the%208-puzzle).
