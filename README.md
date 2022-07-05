@@ -60,7 +60,7 @@ For this project, I wrote an 8 puzzle game and used uninformed search algorithms
 
 ## Polygon Drawer (Java/Polygon Drawer Swing App)
 
-This was my first Java project to use Swing. It is a program that draws an interative star polygon on the screen. Use the mouse to rotate the star or increase its size. Use the arrow keys to add more points to the star.
+This was my first Java project to use Swing. It is a program that draws an interactive star polygon on the screen. Use the mouse to rotate the star or increase its size. Use the arrow keys to add more points to the star.
 
 <img src="https://user-images.githubusercontent.com/31733474/174712488-83571cfb-9fed-4373-a9f9-6b0bf65ce180.png" height="250" >
 
